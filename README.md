@@ -1,8 +1,8 @@
 # AndroidSourceFlavoring-II
 Pattern-II 
 
-            Most secure/convenient way of writting source flavoring with maintaining scope for future decoration of specific classes.
-            In this we use Proxy Pattern to expose APIs from facade with having only 1 code base.
+   Most secure/convenient way of writting source flavoring with maintaining scope for future decoration of specific classes.
+   In this we use Proxy Pattern to expose APIs from facade with having only 1 code base.
             
    Here we need to add files on same package structure as files in main, so flavored files can refer them with their names and these base code files don't need to be public[So if we share aar the end user won't able to call these files directly].
    
